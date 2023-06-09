@@ -30,8 +30,9 @@ while (i <= 10) {
 for (let i = 5; i <= 10; i += 1) {
     console.log(i);
   }*/
-  /*var i = 1;
+  /*
 
+  var i = 1;
   while (i <= 100) {
     if (i % 2 === 0) {
       console.log(i);
@@ -43,6 +44,7 @@ for (let i = 5; i <= 10; i += 1) {
       console.log(i);
     }
   }
+  
   var nombreDeBoucles = 50;
 
 for (var i = 1; i <= nombreDeBoucles; i++) {
