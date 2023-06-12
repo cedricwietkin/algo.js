@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
+/*
 
-
-/*const add = arr => arr.reduce((a, b) => a + b, 0);
+const add = arr => arr.reduce((a, b) => a + b, 0);
 
 let arr = [1,2,3,4,5];
 let arr2 = [100, 101, 102];
