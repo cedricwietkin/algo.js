@@ -57,14 +57,14 @@ let myidentite={
   function askTvSerie() {
     const serie = {};
   
-    serie.name = readlineSync.question("Nom de la série télévisée : ");
+    serie.name = readlineSync.question("Nom de la serie televisee : ");
     serie.year = readlineSync.question("Année de production : ");
   
     serie.actors = [];
     let addActors = true;
   
     while (addActors) {
-      const actor = readlineSync.question("Nom d'un acteur (ou appuyez sur Entrée pour terminer) : ");
+      const actor = readlineSync.question("Nom d'un acteur (ou appuyez sur Entree pour terminer) : ");
   
       if (actor.trim() !== '') {
         serie.actors.push(actor);
